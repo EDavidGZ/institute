@@ -1,0 +1,49 @@
+.test-body{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.test-answer{
+    width: 80%;
+    background-color: rgba(82, 82, 82, 0.075);
+    border-radius: 15px;
+    margin: 0;
+    margin-left: 7rem;
+}
+.show-answer{
+    display: flex;
+    margin-left: 2rem;
+    background-color: rgba(78, 255, 131, 0.486);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    border-radius: 10px;
+}
+.show{
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+}
+.no-show{
+    display: none;
+}
+
+.ok{
+    background-color: rgba(78, 255, 131, 0.486);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.answer{
+    background-color: rgba(78, 255, 131, 0);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.wrong{
+    background-color: rgba(255, 78, 78, 0.171);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}

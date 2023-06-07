@@ -1,0 +1,31 @@
+:root {
+ 
+    --fondoInicio:    linear-gradient(to bottom, #0e0b34, #111439, #151c3e, #1a2343, #202a48, #202a48, #202a48, #202a48, #1a2343, #151c3e, #111439, #0e0b34);
+    --fondoApp:     linear-gradient(to right bottom, #d9d1ff, #dbd4ff, #ddd7ff, #e0d9ff, #e2dcff, #e2dcff, #e2dbff, #e2dbff, #e0d8ff, #ded4ff, #dcd1ff, #dacdff);
+    --fondoTitle: linear-gradient(to right top, #b9fffa, #aff4f1, #a6e9e8, #9ddede, #94d3d5, #93cbd2, #93c2cd, #93bac7, #9bb2c1, #a2abb7, #a4a6ac, #a1a1a1);
+    --fondobeginner:   linear-gradient(to bottom, #7b9ddc, #7d9bd3, #7f99c9, #8197c0, #8395b7, #7a98b7, #739bb5, #6e9db1, #62a5aa, #69ab9a, #80ad85, #a0ac73);
+    --fondobeginner2:   linear-gradient(to bottom, #dcfffd, #cffef2, #c8fbe1, #c9f7cb, #d2f1b4, #d8efa8, #e0ec9c, #e9e990, #eaeb8b, #ebed86, #ecf080, #edf27b);
+    --fondoHome: background-image("/fondo.png")
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #aaaaaa;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #888888;
+}
+
+.aredic {
+  color: rgb(2, 1, 1);
+}
+.aredic:hover {
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,76 @@
+.beginners-cont{
+    background: var(--fondobeginner);
+    width: 100%;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-rows: repeat(2);
+}
+
+
+
+.content-welcome {
+    padding: 2rem;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 2.5rem;
+
+}
+
+.lessons-list{
+    margin: 4rem;
+}
+
+.buttons-beginners{
+    width: 100%;
+    height: 250vh;
+}
+.begTitle{
+    margin-left: 2rem;
+    color: rgba(0, 0, 0, 0.692);
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.topic1{
+    width: 30%;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px rgb(238, 30, 30);
+}
+.topic2{
+    width: 30%;
+    margin-left: 20%;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px rgb(172, 30, 238);
+}
+.topic3{
+    width: 30%;
+    margin-left: 40%;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px rgb(16, 141, 64);
+}
+.topic4{
+    width: 30%;
+    margin-bottom: 2rem;
+    margin-left: 60%;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px rgb(33, 30, 238);
+}
+.topic5{
+    width: 30%;
+    margin-bottom: 2rem;
+    margin-left: 40%;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px rgb(219, 221, 120);
+}
+.topic6{
+    width: 30%;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px rgb(85, 84, 84);
+}

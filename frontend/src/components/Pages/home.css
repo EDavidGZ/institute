@@ -1,0 +1,70 @@
+.homeContainer {
+    display: grid;
+    grid-template-columns: repeat(2);
+    overflow-x: hidden;
+}
+
+.boxC1{
+    width: 180px;
+    height: 100vh;
+    background-color: rgba(255, 238, 0, 0);
+    position: fixed;
+}
+.boxC2{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.box1{
+    height: 100px;
+    backdrop-filter: blur(10px); 
+    width: 100%;
+    position: fixed;
+}
+.box2{
+    height: 200px;
+    background-color: rgba(24, 247, 4, 0);
+    width: 100%;
+    margin-top: 110px;
+    margin-left: 310px;
+}
+
+.avatar{
+    backdrop-filter: blur(10px);    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    margin: 2rem;
+    width: 200px;
+    font-family: cursive;
+    padding: 0.5rem;
+    background-color: rgba(160, 160, 160, 0.329);
+}
+.userName{
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: rgba(30, 14, 88, 0.568);
+}
+
+.list{
+    display: flex;
+    margin: .5rem;
+    width: 250px;
+    gap: .5rem;
+    flex-direction: column;
+}
+
+.textDash {
+    text-align: left;
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
+.iconsDash {
+    margin-left: -1rem;
+    text-align: left;
+    padding-left: 2rem;
+    color: rgb(190, 81, 81);
+    font-size: 1rem;
+}
